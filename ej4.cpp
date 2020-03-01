@@ -1,7 +1,18 @@
 #include <iostream>
 
 using namespace std;
-
+/*
+4. Ejercicio04.cpp: escribe un programa que almacene en un array bidimensional (tipo String) 
+el nombre de tres asignaturas y sus cuatro puntuaciones (puedes ver un esquema después del enunciado). Seguidamente se mostrará
+por consola todos los valores almacenados en el array y luego se pedirá al usuario si  quiere:
+1-Mostrar el nombre de todas las asignaturas
+2-Mostrar las puntuaciones de una asignatura (seleccionada según su posición en el array).
+4- Mostrar la puntuación media de una asignatura.
+5- Mostrar la puntuación más alta de una asignatura.
+0-Salir
+El usuario escogerá la película según el que ocupe dentro del array.
+El programa no ha de finalizar hasta que el usuario seleccione la opción 0.
+*/
 int main(int argc, char *argv[]){
     string matriz[3][4];//Definición de la matriz
     string nombre;//String para introducir por consola los parámetros
