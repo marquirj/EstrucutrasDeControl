@@ -2,7 +2,7 @@
 
 using namespace std;
 /*
-2. Ejercicio02.java: Crea un programa que mantenga la cantidad de café y leche en una taza inicialmente vacía.
+2. Ejercicio02.cpp: Crea un programa que mantenga la cantidad de café y leche en una taza inicialmente vacía.
 Mediante un SWITCH, el programa debe mostrar el siguiente mensaje al usuario:
 Introduzca la operación a realizar del siguiente menú de opciones:
 1- Añadir café a taza.
