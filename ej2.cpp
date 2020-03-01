@@ -1,7 +1,28 @@
 #include <iostream>
 
 using namespace std;
+/*
+2. Ejercicio02.java: Crea un programa que mantenga la cantidad de café y leche en una taza inicialmente vacía.
+Mediante un SWITCH, el programa debe mostrar el siguiente mensaje al usuario:
+Introduzca la operación a realizar del siguiente menú de opciones:
+1- Añadir café a taza.
+2- Añadir leche a la taza.
+3- Beber de la taza
+0-Finalizar
 
+    a. Si el usuario introduce un 1, el programa ha de pedir un número decimal al usuario y sumarlo a la cantidad de café que tiene la taza.
+    b. Si el usuario introduce un 2, el programa ha de pedir un número decimal al usuario y sumarlo de la cantidad de leche que tiene la taza.
+    c. Si el usuario introduce un 3, el programa ha de pedir un número al usuario y dividirlo entre 2.
+    El resultado ser restará de la cantidad de café y la cantidad de leche que tiene la taza. Si la cantidad de leche llega a 0 pero aún queda café,
+    resta el resto de leche de la cantidad de café. Si la cantidad de café llega a 0 pero aún queda leche, resta el resto de café de la cantidad de leche.
+    En el caso que no quede suficiente café ni leche, ambos quedaran a 0.
+    d. Si el usuario introduce un 0, se ha de mostrar un mensaje de despedida y finalizar el programa.
+
+Cada vez que se realice la operación 1, 2, 3  se ha de mostrar por pantalla la cantidad de café y leche que tiene la taza.
+Controla mediante un DO WHILE que una vez realizada la operación seleccionada  se vuelva a mostrar el menú de operacione
+s excepto si el usuario ha introducido un 0.
+Si se introduce un valor menor a 0, indica que se ha introducido un valor incorrecto y vuelve a mostrar el menú.
+*/
 int main(int argc, char *argv[]){
     float cantidadCafe=0, cantidadLeche=0;
     int control=-1;//Valor a introducir para seleccionar una opción. Si es 0 finalizará;
