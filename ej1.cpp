@@ -1,7 +1,10 @@
 #include <iostream>
 
 using namespace std;
-
+/*
+Ejercicio01.cpp: Crea un programa que con un Do/While pida por consola un número hasta que se introduzca un número superior a 7.
+Cuando el usuario introduzca un valor superior a 7 muestra por consola los números del 0 al número introducido (ambos incluidos) utilizando la estructura WHILE.
+ Luego utilizando la estructura FOR muestra por consola los números del número introducido al 0 (ambos incluidos).*/
 int main(int argc, char *argv[]){
     int numeroSolicitado=0;//Valor que pide al usuario un número que debe ser mayor que 7.
     int contador=0;//Entero para recorrer, como dice que empiece en 0 se inicializa a 0.
