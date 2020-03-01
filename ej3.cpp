@@ -1,7 +1,16 @@
 #include <iostream>
 
 using namespace std;
-
+/*
+3. Ejercicio03.cpp: escribe un programa que pida al usuario las 5 números que (pueden contener decimales).
+Se deben almacenar a un array y mostrarlas por consola. Seguidamente se pedirá al usuario si se quiere:
+1- Modificar un valor: en este caso se pedirá qué posición del array se quiere modificar y su nuevo valor.
+ A continuación ha de mostrar todos los valores almacenados en el array.
+2- Mostrar el valor más bajo: ha de buscar mediante un bucle  el valor más bajo y después mostrarlo.
+3- Mostrar el valor medio almacenado: ha de calcular el valor medio mediante un bucle y  mostrarlo por consola.
+0- finalizar el programa.
+El programa no ha de finalizar hasta que el usuario seleccione la  opción 0.
+*/
 int main(int argc, char *argv[]){
     float miArray[5];
     int contador=0; //valor para no pasarse ddel tamño del array
